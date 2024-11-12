@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+   
+}
+
+.instagram_main{
+
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.instagram_sidebar{
+    
+    min-width: 245px;
+    height:70vh;
+    padding-left:24px;
+    padding-top: 50px;
+    border-right: 1px solid #DBDBDB;
+   
+
+}
+
+.instagram_main_content{
+    width:630px;
+    height:100vh;
+}
+.instagram_main_suggestion{
+    width:351px;
+    height:100vh;
+
+}
+
+.insta_logo{
+    margin-bottom:32px;
+}
+
+.insta_menus{
+    padding:12px 0px;
+    display: flex;
+    align-items: center;
+    gap:16px;
+    h2{
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color:#262626;
+        font-weight:Regular;
+
+    }
+}
